@@ -36,11 +36,11 @@ ORDER BY dept;
 
 
 
---- Part B Start
--- A company maintains records of products sold by different salespersons. The management wants to prepare a sales 
--- performance report by identifying the salesperson(s) who generated the highest overall sales revenue. 
--- If multiple salespersons have the same highest total sales amount, all of them must be included in the final report. 
--- Return the seller ID(s) satisfying this condition.
+-- --- Part B Start
+-- Using the sales records, calculate the total sales revenue for each s
+-- salesperson. Identify the maximum total revenue and return the seller ID(s) of
+-- all salespersons who achieved this value. If multiple salespersons are tied, 
+-- include each of them in the output.
 
 
 CREATE TABLE SalesPerson
